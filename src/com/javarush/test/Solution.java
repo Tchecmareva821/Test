@@ -54,7 +54,7 @@ public class Solution {
                         f[2][k] = 1/x[j][k];
                     }
                     if(k==4){
-                        f[1][k] = 0;
+                        f[1][k] = 0;//
                         f[2][k] = 0;
                     }
                     System.out.println("f[1][" + k + "]=" + f[1][k]);
